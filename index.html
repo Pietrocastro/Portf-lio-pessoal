@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!--tag que inicia todas as infos que vão para o navegador'-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pietro Prata</title>
+    <style>
+        img {
+            width: 10%; /* A imagem ocupará 50% da largura do container pai */
+            height: auto; /* A altura será ajustada proporcionalmente à largura */
+            margin: 20px auto; /* Margem de 20px em todas as direções e centralizada */
+        }
+    </style>
+</head> <!--tag com '\' indicando fechamento-->
+<!--tudo que estiver entre o inicio e o fim do head é chamado de METADADOS-->
+<body> <!-- tag que representa o CORPO da página-->
+    <header>
+        <h1>Portifólio Pietro Prata</h1><!--tentar utilizar no máximo 1 h1-->
+        <div class ="imagem-perfil">
+        <img src="IMG-20240602-WA0196.jpg" alt="foto minha de ladinho gostozin">
+        </div>
+    </header>
+    <main>
+        <section>
+        <input type="text" placeholder="digite o que quiser" id="campo-pesquisa">
+        <button onclick="Buscar()">Buscar</button>
+    </section>
+    <section class="resultados-pesquisa" id="resultados-pesquisa">
+    </section>
+    </main>
+    <footer>
+        <p>
+            ACABOU O SITE - 2024 - PORTIFÓLIO Pietro Prata. Todos os direitos reservados
+        </p>
+        <p>
+            pietroprata@id.uff.br
+        </p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
