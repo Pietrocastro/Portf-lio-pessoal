@@ -1,4 +1,4 @@
-## **README.md - Portifólio Pietro Prata**
+## **Portifólio Pietro Prata**
 
 ### ** Sobre o Projeto**
 
